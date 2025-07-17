@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <form>
-        <p>Choose your gender:</p>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
-    </br>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-    </br>
-        <label for="bio">Short Bio:</label><br>
-        <textarea id="bio" name="bio" rows="4" cols="40"></textarea>
-    </br>
-        <label for="fruit">Favorite Fruit:</label>
-        <select id="fruit" name="animal">
-        <option value="kiwi">Kiwi</option>
-        <option value="mango">Mango</option>
-        <option value="apple">Apple</option>
-        <option value="orange">Orange</option>
-        </select>
-    </br>
-        <input type="submit" value="Submit">
-    </form>
+    <style>
+        body{
+            background:#f7f7f7;
+        }
+        h1, h3, p{
+            background:#eeeeee;
+            color:#000000;
+            display:inline-block;
+            border:1px solid #c2c2c2;
+        }
+    </style>
+    <body>
+            <h1>Form</h1>
+    
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </br>
+            <p>Choose your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </br>
+
+            <label for="info">About Yourself:</label><br>
+            <textarea id="info" name="info" rows="4" cols="40"></textarea>
+        </br>
+            <label for="fruit">Favorite Fruit:</label>
+            <select id="fruit" name="animal">
+            <option value="kiwi">Kiwi</option>
+            <option value="mango">Mango</option>
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            </select>
+        </br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>
